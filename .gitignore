@@ -1,0 +1,49 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Large generated datasets (review before committing)
+# Uncomment these if you do not want to upload the files
+# dynamic_data.npy
+# dynamic_labels.npy
+# data.csv
+
+# Generated model files (review size and whether inference requires them)
+# dynamic_model.keras
+# gesture_model.pkl
+
+# Local evaluation outputs
+results/
+runs/
+outputs/
