@@ -76,16 +76,7 @@ Sign-Language-Recognition/
 - A webcam, if required by the real-time recognition script.
 - The required model and label files, if inference depends on saved assets.
 
-### **1. Clone the Repository**
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd Sign-Language-Recognition
-```
-
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual GitHub repository URL.
-
-### **2. Create a Virtual Environment**
+### **1. Create a Virtual Environment**
 
 **Windows:**
 
@@ -106,7 +97,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### **3. Install Dependencies**
+### **2. Install Dependencies**
 
 Upgrade pip:
 
@@ -216,17 +207,6 @@ Potential applications include:
 - Accessibility-focused prototypes.
 - Real-time gesture classification demonstrations.
 
-These are potential applications, not claims of validated real-world performance.
-
-## **Limitations**
-
-- The model recognizes only gestures represented in its training dataset.
-- Recognition may be affected by lighting, camera position, and background conditions.
-- Different users may perform the same gesture differently.
-- The quality of predictions depends on dataset size, diversity, and model training.
-- Gesture classification alone does not provide complete sign language translation.
-- Performance should be evaluated before using the system in practical accessibility applications.
-
 ## **Future Improvements**
 
 - Expand the dataset with diverse gesture samples.
@@ -239,10 +219,6 @@ These are potential applications, not claims of validated real-world performance
 - Explore continuous gesture recognition and sentence-level interpretation.
 - Add automated tests for data collection, training, and inference.
 - Improve dependency management and error handling.
-
-## **License**
-
-This project is intended for educational and demonstration purposes. Add a `LICENSE` file specifying the license you choose, and verify the licenses of any datasets, pretrained models, and third-party dependencies you redistribute.
 
 ## **Conclusion**
 
